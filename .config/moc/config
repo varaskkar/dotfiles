@@ -1,0 +1,38 @@
+# https://github.com/meh/moc/blob/master/config.example.in
+# https://git.hans.ninja/hans/moc-pulse/blob/484fb0c41ff1b7be495c29689dac7ddafb032431/config.example
+
+# Para que se muestre solo directorios o playlist, ¿Solucion? Cambiar el layout
+#Layout1 = directory(0,0,100%,100%):playlist(0,0,100%,100%)
+Layout1 = playlist(50%,50%,50%,50%)
+
+#Layout1 = playlist(0,0,100%,10):directory(0,10,100%,FILL)
+#Layout1 = directory(0,0,50%,100%):playlist(50%,0,FILL,100%)
+
+Theme               = GlossyWhite
+
+AutoNext            = yes
+FormatString        = "%t"
+
+ReadTags            = yes
+ShowFormat          = no
+ShowHiddenFiles     = no
+ShowTime            = no
+ASCIILines          = no
+Keymap              = keymap
+
+PlaylistFullPaths   = no
+SavePlaylist        = yes
+SyncPlaylist        = yes
+PlaylistNumbering   = yes
+CanStartInPlaylist  = yes
+
+SetScreenTitle      = no
+HideFileExtension   = yes
+
+Equalizer_SaveState = yes
+
+ModPlug_Reverb      = yes
+ModPlug_MegaBass    = yes
+ModPlug_Surround    = yes
+
+#OnStop = "/home/lswest/.bin/mochg"
